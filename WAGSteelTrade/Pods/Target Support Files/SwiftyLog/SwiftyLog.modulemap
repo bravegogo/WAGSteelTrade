@@ -1,0 +1,6 @@
+framework module SwiftyLog {
+  umbrella header "SwiftyLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

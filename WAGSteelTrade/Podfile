@@ -1,0 +1,42 @@
+platform :ios, '9.0'
+
+ use_frameworks!
+target 'WAGSteelTrade' do
+     pod 'Kingfisher'
+     pod 'SwiftyUserDefaults'
+#    pod 'HandyJSON'
+     pod 'Alamofire', '4.4.0'
+     pod 'MBProgressHUD', '~> 1.0'
+     pod 'Moya'
+#     pod 'SnapKit', '~> 3.0'
+     pod 'SnapKit'
+#     pod 'GRDB.swift'
+     pod 'GRDBCipher'
+     pod 'CYLTabBarController'
+     pod 'FLEX'
+     pod 'Then'
+     pod 'CryptoSwift'
+     pod 'SwiftyLog'
+#     pod 'RxSwift'
+#     pod 'RxCocoa'
+#      pod 'XCGLogger'
+#    pod 'SQLite.swift'
+#    pod 'SQLiteCipher.swift',  git: 'https://github.com/stephencelis/SQLite.swift.git'
+      pod 'SwiftSocket'
+      pod 'BlueSocket'
+
+ 
+ pod 'React', :path => './node_modules/react-native', :subspecs => [
+        'Core',
+        'RCTImage',
+        'RCTNetwork',
+        'RCTText',
+        'RCTWebSocket',
+ # Add any other subspecs you want to use in your project
+ ]
+# pod "Yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
+
+end
+
+
+

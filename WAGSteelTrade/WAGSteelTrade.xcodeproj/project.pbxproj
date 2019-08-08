@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B304406C20AD6E2800B195CB /* WAGRNBridageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B304406B20AD6E2800B195CB /* WAGRNBridageModule.m */; };
+		B304406E20AD6F1100B195CB /* WAGRNBridgeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304406D20AD6F1100B195CB /* WAGRNBridgeRouter.swift */; };
+		B304407120AD920C00B195CB /* WAGRCTBridgeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B304406F20AD920B00B195CB /* WAGRCTBridgeModule.m */; };
+		B304407620AE6C8500B195CB /* WAGRNWarpperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304407520AE6C8500B195CB /* WAGRNWarpperViewController.swift */; };
+		B304407820AE6F7A00B195CB /* WAGRNWarpper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304407720AE6F7A00B195CB /* WAGRNWarpper.swift */; };
+		B31A84C620735CD700E25805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A84C520735CD700E25805 /* AppDelegate.swift */; };
+		B31A84C820735CD700E25805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A84C720735CD700E25805 /* ViewController.swift */; };
+		B31A84CB20735CD700E25805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31A84C920735CD700E25805 /* Main.storyboard */; };
+		B31A84CD20735CD700E25805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31A84CC20735CD700E25805 /* Assets.xcassets */; };
+		B31A84D020735CD700E25805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31A84CE20735CD700E25805 /* LaunchScreen.storyboard */; };
+		B326382220A43C5400A52EF0 /* WAGLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B326382120A43C5400A52EF0 /* WAGLog.swift */; };
+		B326382A20A56DA500A52EF0 /* WAGLoginManager+NetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B326382920A56DA500A52EF0 /* WAGLoginManager+NetService.swift */; };
+		B326382C20A570AA00A52EF0 /* WAGLoginManager+DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B326382B20A570AA00A52EF0 /* WAGLoginManager+DataProvider.swift */; };
+		B3301E84209164EC00DE33E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3301E83209164EC00DE33E6 /* Images.xcassets */; };
+		B3301E892092B33C00DE33E6 /* WAGMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301E882092B33C00DE33E6 /* WAGMainViewController.swift */; };
+		B3301E8C2092B59800DE33E6 /* WAGGuidePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301E8B2092B59800DE33E6 /* WAGGuidePageViewController.swift */; };
+		B3301E8E2092B5EC00DE33E6 /* WAGSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301E8D2092B5EC00DE33E6 /* WAGSplashViewController.swift */; };
+		B3301E902093004900DE33E6 /* WAGGuidePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301E8F2093004900DE33E6 /* WAGGuidePageControl.swift */; };
+		B3301E922093205E00DE33E6 /* UIImage+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301E912093205D00DE33E6 /* UIImage+GIF.swift */; };
+		B3301E952093268400DE33E6 /* WAGCommonDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301E942093268400DE33E6 /* WAGCommonDefines.swift */; };
+		B3301E992095552B00DE33E6 /* WAGLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301E982095552B00DE33E6 /* WAGLoginViewController.swift */; };
+		B3301E9F2096C1B400DE33E6 /* WAGChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301E9E2096C1B400DE33E6 /* WAGChatViewController.swift */; };
+		B3301EA12096C1D900DE33E6 /* WAGMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301EA02096C1D900DE33E6 /* WAGMineViewController.swift */; };
+		B3301EA32096C22100DE33E6 /* WAGHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301EA22096C22100DE33E6 /* WAGHomePageViewController.swift */; };
+		B3301EA62096C38400DE33E6 /* WAGTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301EA52096C38400DE33E6 /* WAGTabBarViewController.swift */; };
+		B3301EA92096C50300DE33E6 /* WAGWorkBenchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301EA82096C50300DE33E6 /* WAGWorkBenchViewController.swift */; };
+		B3301EAB2096C7F500DE33E6 /* WAGNavigatioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3301EAA2096C7F500DE33E6 /* WAGNavigatioViewController.swift */; };
+		B362FAE320986F9C00CA277F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B362FAE220986F9C00CA277F /* Router.swift */; };
+		B362FAE52098708400CA277F /* WAGRouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B362FAE42098708400CA277F /* WAGRouterManager.swift */; };
+		B3D486DF20A1892200553733 /* _FMUpdateStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D486DA20A1892200553733 /* _FMUpdateStatement.swift */; };
+		B3D486E020A1892200553733 /* FMDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D486DB20A1892200553733 /* FMDatabase.swift */; };
+		B3D486E120A1892200553733 /* _FMSelectStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D486DC20A1892200553733 /* _FMSelectStatement.swift */; };
+		B3D486E220A1892200553733 /* FMDatabaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D486DD20A1892200553733 /* FMDatabaseQueue.swift */; };
+		B3D486E320A1892200553733 /* FMResultSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D486DE20A1892200553733 /* FMResultSet.swift */; };
+		B3D486E520A18D5D00553733 /* WAGDatabaseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D486E420A18D5D00553733 /* WAGDatabaseSettings.swift */; };
+		B3F63FA5208B875000380BA0 /* WAGDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F63FA4208B875000380BA0 /* WAGDataProvider.swift */; };
+		B3F63FA7208B877500380BA0 /* WAGNetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F63FA6208B877400380BA0 /* WAGNetService.swift */; };
+		B3F63FA9208B87C600380BA0 /* WAGSellerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F63FA8208B87C600380BA0 /* WAGSellerManager.swift */; };
+		B3F63FAB208B87DA00380BA0 /* WAGBuyerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F63FAA208B87DA00380BA0 /* WAGBuyerManager.swift */; };
+		B3F63FAF208B885400380BA0 /* WAGMineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F63FAE208B885400380BA0 /* WAGMineManager.swift */; };
+		B3F63FB1208B886D00380BA0 /* WAGLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F63FB0208B886D00380BA0 /* WAGLoginManager.swift */; };
+		B3F63FB3208B893F00380BA0 /* WAGFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F63FB2208B893F00380BA0 /* WAGFacade.swift */; };
+		B3F63FB5208B895E00380BA0 /* WAGUIControllerRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F63FB4208B895E00380BA0 /* WAGUIControllerRoute.swift */; };
+		B3F63FB7208B8A1B00380BA0 /* WAGChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F63FB6208B8A1B00380BA0 /* WAGChatManager.swift */; };
+		CEE91DD2B4D005A72E95C6AE /* Pods_WAGSteelTrade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7612151DA36DE9C3A50521A /* Pods_WAGSteelTrade.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B304406A20AD6E2800B195CB /* WAGRNBridageModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGRNBridageModule.h; sourceTree = "<group>"; };
+		B304406B20AD6E2800B195CB /* WAGRNBridageModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGRNBridageModule.m; sourceTree = "<group>"; };
+		B304406D20AD6F1100B195CB /* WAGRNBridgeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGRNBridgeRouter.swift; sourceTree = "<group>"; };
+		B304406F20AD920B00B195CB /* WAGRCTBridgeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAGRCTBridgeModule.m; sourceTree = "<group>"; };
+		B304407020AD920C00B195CB /* WAGRCTBridgeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAGRCTBridgeModule.h; sourceTree = "<group>"; };
+		B304407520AE6C8500B195CB /* WAGRNWarpperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGRNWarpperViewController.swift; sourceTree = "<group>"; };
+		B304407720AE6F7A00B195CB /* WAGRNWarpper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGRNWarpper.swift; sourceTree = "<group>"; };
+		B31A84C220735CD700E25805 /* WAGSteelTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAGSteelTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31A84C520735CD700E25805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B31A84C720735CD700E25805 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B31A84CA20735CD700E25805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B31A84CC20735CD700E25805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B31A84CF20735CD700E25805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B31A84D120735CD700E25805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31A84D72073833000E25805 /* SteelTrade-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SteelTrade-Bridging-Header.h"; sourceTree = "<group>"; };
+		B326382120A43C5400A52EF0 /* WAGLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGLog.swift; sourceTree = "<group>"; };
+		B326382920A56DA500A52EF0 /* WAGLoginManager+NetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WAGLoginManager+NetService.swift"; sourceTree = "<group>"; };
+		B326382B20A570AA00A52EF0 /* WAGLoginManager+DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WAGLoginManager+DataProvider.swift"; sourceTree = "<group>"; };
+		B3301E83209164EC00DE33E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3301E882092B33C00DE33E6 /* WAGMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGMainViewController.swift; sourceTree = "<group>"; };
+		B3301E8B2092B59800DE33E6 /* WAGGuidePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGGuidePageViewController.swift; sourceTree = "<group>"; };
+		B3301E8D2092B5EC00DE33E6 /* WAGSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGSplashViewController.swift; sourceTree = "<group>"; };
+		B3301E8F2093004900DE33E6 /* WAGGuidePageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGGuidePageControl.swift; sourceTree = "<group>"; };
+		B3301E912093205D00DE33E6 /* UIImage+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+GIF.swift"; sourceTree = "<group>"; };
+		B3301E942093268400DE33E6 /* WAGCommonDefines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGCommonDefines.swift; sourceTree = "<group>"; };
+		B3301E982095552B00DE33E6 /* WAGLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAGLoginViewController.swift; sourceTree = "<group>"; };
+		B3301E9E2096C1B400DE33E6 /* WAGChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGChatViewController.swift; sourceTree = "<group>"; };
+		B3301EA02096C1D900DE33E6 /* WAGMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGMineViewController.swift; sourceTree = "<group>"; };
+		B3301EA22096C22100DE33E6 /* WAGHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGHomePageViewController.swift; sourceTree = "<group>"; };
+		B3301EA52096C38400DE33E6 /* WAGTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGTabBarViewController.swift; sourceTree = "<group>"; };
+		B3301EA82096C50300DE33E6 /* WAGWorkBenchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGWorkBenchViewController.swift; sourceTree = "<group>"; };
+		B3301EAA2096C7F500DE33E6 /* WAGNavigatioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGNavigatioViewController.swift; sourceTree = "<group>"; };
+		B362FAE220986F9C00CA277F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B362FAE42098708400CA277F /* WAGRouterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGRouterManager.swift; sourceTree = "<group>"; };
+		B3D486DA20A1892200553733 /* _FMUpdateStatement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _FMUpdateStatement.swift; sourceTree = "<group>"; };
+		B3D486DB20A1892200553733 /* FMDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabase.swift; sourceTree = "<group>"; };
+		B3D486DC20A1892200553733 /* _FMSelectStatement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _FMSelectStatement.swift; sourceTree = "<group>"; };
+		B3D486DD20A1892200553733 /* FMDatabaseQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseQueue.swift; sourceTree = "<group>"; };
+		B3D486DE20A1892200553733 /* FMResultSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMResultSet.swift; sourceTree = "<group>"; };
+		B3D486E420A18D5D00553733 /* WAGDatabaseSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGDatabaseSettings.swift; sourceTree = "<group>"; };
+		B3F63FA4208B875000380BA0 /* WAGDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGDataProvider.swift; sourceTree = "<group>"; };
+		B3F63FA6208B877400380BA0 /* WAGNetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGNetService.swift; sourceTree = "<group>"; };
+		B3F63FA8208B87C600380BA0 /* WAGSellerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGSellerManager.swift; sourceTree = "<group>"; };
+		B3F63FAA208B87DA00380BA0 /* WAGBuyerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGBuyerManager.swift; sourceTree = "<group>"; };
+		B3F63FAE208B885400380BA0 /* WAGMineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGMineManager.swift; sourceTree = "<group>"; };
+		B3F63FB0208B886D00380BA0 /* WAGLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGLoginManager.swift; sourceTree = "<group>"; };
+		B3F63FB2208B893F00380BA0 /* WAGFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGFacade.swift; sourceTree = "<group>"; };
+		B3F63FB4208B895E00380BA0 /* WAGUIControllerRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGUIControllerRoute.swift; sourceTree = "<group>"; };
+		B3F63FB6208B8A1B00380BA0 /* WAGChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAGChatManager.swift; sourceTree = "<group>"; };
+		B9036FB36FA176CB350436B4 /* Pods-WAGSteelTrade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAGSteelTrade.release.xcconfig"; path = "Pods/Target Support Files/Pods-WAGSteelTrade/Pods-WAGSteelTrade.release.xcconfig"; sourceTree = "<group>"; };
+		BFD0048E4031D158DA9836F8 /* Pods-WAGSteelTrade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAGSteelTrade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WAGSteelTrade/Pods-WAGSteelTrade.debug.xcconfig"; sourceTree = "<group>"; };
+		D7612151DA36DE9C3A50521A /* Pods_WAGSteelTrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAGSteelTrade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B31A84BF20735CD700E25805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE91DD2B4D005A72E95C6AE /* Pods_WAGSteelTrade.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5324519985C5FC873B1A6DCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFD0048E4031D158DA9836F8 /* Pods-WAGSteelTrade.debug.xcconfig */,
+				B9036FB36FA176CB350436B4 /* Pods-WAGSteelTrade.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B304406920AD6B4400B195CB /* RN */ = {
+			isa = PBXGroup;
+			children = (
+				B304407420AD95DC00B195CB /* RNRouter */,
+				B304407520AE6C8500B195CB /* WAGRNWarpperViewController.swift */,
+				B304407720AE6F7A00B195CB /* WAGRNWarpper.swift */,
+			);
+			path = RN;
+			sourceTree = "<group>";
+		};
+		B304407220AD957000B195CB /* ControllerRouter */ = {
+			isa = PBXGroup;
+			children = (
+				B362FAE42098708400CA277F /* WAGRouterManager.swift */,
+				B362FAE220986F9C00CA277F /* Router.swift */,
+			);
+			name = ControllerRouter;
+			sourceTree = "<group>";
+		};
+		B304407420AD95DC00B195CB /* RNRouter */ = {
+			isa = PBXGroup;
+			children = (
+				B304407020AD920C00B195CB /* WAGRCTBridgeModule.h */,
+				B304406F20AD920B00B195CB /* WAGRCTBridgeModule.m */,
+				B304406A20AD6E2800B195CB /* WAGRNBridageModule.h */,
+				B304406B20AD6E2800B195CB /* WAGRNBridageModule.m */,
+				B304406D20AD6F1100B195CB /* WAGRNBridgeRouter.swift */,
+			);
+			name = RNRouter;
+			sourceTree = "<group>";
+		};
+		B31A84B920735CD700E25805 = {
+			isa = PBXGroup;
+			children = (
+				B31A84C420735CD700E25805 /* WAGSteelTrade */,
+				B31A84C320735CD700E25805 /* Products */,
+				5324519985C5FC873B1A6DCA /* Pods */,
+				FCFE5F68603672FD55369789 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B31A84C320735CD700E25805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B31A84C220735CD700E25805 /* WAGSteelTrade.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B31A84C420735CD700E25805 /* WAGSteelTrade */ = {
+			isa = PBXGroup;
+			children = (
+				B304406920AD6B4400B195CB /* RN */,
+				B3D486D820A1889D00553733 /* Frameworks */,
+				B362FAE120986F6100CA277F /* Router */,
+				B3301EA72096C4A600DE33E6 /* WorkBench */,
+				B3301EA42096C32400DE33E6 /* BaseController */,
+				B3301E9D2096C0FA00DE33E6 /* ChatController */,
+				B3301E9C2096C0A600DE33E6 /* MineController */,
+				B3301E9B2096C00000DE33E6 /* HomePageController */,
+				B3301E932093264C00DE33E6 /* Common */,
+				B3301E8A2092B56300DE33E6 /* LoginController */,
+				B3301E852092B21600DE33E6 /* MainController */,
+				B3301E82209028A100DE33E6 /* Facade */,
+				B3301E802090285A00DE33E6 /* DataPersistence */,
+				B3301E7F2090283900DE33E6 /* LogicManagers */,
+				B31A84C520735CD700E25805 /* AppDelegate.swift */,
+				B31A84C720735CD700E25805 /* ViewController.swift */,
+				B31A84C920735CD700E25805 /* Main.storyboard */,
+				B31A84CC20735CD700E25805 /* Assets.xcassets */,
+				B31A84CE20735CD700E25805 /* LaunchScreen.storyboard */,
+				B31A84D120735CD700E25805 /* Info.plist */,
+				B31A84D72073833000E25805 /* SteelTrade-Bridging-Header.h */,
+				B3301E83209164EC00DE33E6 /* Images.xcassets */,
+			);
+			path = WAGSteelTrade;
+			sourceTree = "<group>";
+		};
+		B326382020A43BF100A52EF0 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				B326382120A43C5400A52EF0 /* WAGLog.swift */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		B3301E7F2090283900DE33E6 /* LogicManagers */ = {
+			isa = PBXGroup;
+			children = (
+				B3F63FA8208B87C600380BA0 /* WAGSellerManager.swift */,
+				B3F63FAA208B87DA00380BA0 /* WAGBuyerManager.swift */,
+				B3F63FAE208B885400380BA0 /* WAGMineManager.swift */,
+				B3F63FB6208B8A1B00380BA0 /* WAGChatManager.swift */,
+				B3F63FB0208B886D00380BA0 /* WAGLoginManager.swift */,
+				B326382920A56DA500A52EF0 /* WAGLoginManager+NetService.swift */,
+				B326382B20A570AA00A52EF0 /* WAGLoginManager+DataProvider.swift */,
+			);
+			path = LogicManagers;
+			sourceTree = "<group>";
+		};
+		B3301E802090285A00DE33E6 /* DataPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				B3F63FA4208B875000380BA0 /* WAGDataProvider.swift */,
+			);
+			path = DataPersistence;
+			sourceTree = "<group>";
+		};
+		B3301E812090287B00DE33E6 /* NetService */ = {
+			isa = PBXGroup;
+			children = (
+				B3F63FA6208B877400380BA0 /* WAGNetService.swift */,
+			);
+			path = NetService;
+			sourceTree = "<group>";
+		};
+		B3301E82209028A100DE33E6 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				B3F63FB4208B895E00380BA0 /* WAGUIControllerRoute.swift */,
+				B3F63FB2208B893F00380BA0 /* WAGFacade.swift */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		B3301E852092B21600DE33E6 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				B3301E882092B33C00DE33E6 /* WAGMainViewController.swift */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		B3301E8A2092B56300DE33E6 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				B3301E982095552B00DE33E6 /* WAGLoginViewController.swift */,
+				B3301E8B2092B59800DE33E6 /* WAGGuidePageViewController.swift */,
+				B3301E8D2092B5EC00DE33E6 /* WAGSplashViewController.swift */,
+				B3301E8F2093004900DE33E6 /* WAGGuidePageControl.swift */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		B3301E932093264C00DE33E6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B3301E912093205D00DE33E6 /* UIImage+GIF.swift */,
+				B3301E942093268400DE33E6 /* WAGCommonDefines.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B3301E9B2096C00000DE33E6 /* HomePageController */ = {
+			isa = PBXGroup;
+			children = (
+				B3301EA22096C22100DE33E6 /* WAGHomePageViewController.swift */,
+			);
+			path = HomePageController;
+			sourceTree = "<group>";
+		};
+		B3301E9C2096C0A600DE33E6 /* MineController */ = {
+			isa = PBXGroup;
+			children = (
+				B3301EA02096C1D900DE33E6 /* WAGMineViewController.swift */,
+			);
+			path = MineController;
+			sourceTree = "<group>";
+		};
+		B3301E9D2096C0FA00DE33E6 /* ChatController */ = {
+			isa = PBXGroup;
+			children = (
+				B3301E9E2096C1B400DE33E6 /* WAGChatViewController.swift */,
+			);
+			path = ChatController;
+			sourceTree = "<group>";
+		};
+		B3301EA42096C32400DE33E6 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				B3301EA52096C38400DE33E6 /* WAGTabBarViewController.swift */,
+				B3301EAA2096C7F500DE33E6 /* WAGNavigatioViewController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		B3301EA72096C4A600DE33E6 /* WorkBench */ = {
+			isa = PBXGroup;
+			children = (
+				B3301EA82096C50300DE33E6 /* WAGWorkBenchViewController.swift */,
+			);
+			path = WorkBench;
+			sourceTree = "<group>";
+		};
+		B362FAE120986F6100CA277F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B304407220AD957000B195CB /* ControllerRouter */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B3D486D820A1889D00553733 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B326382020A43BF100A52EF0 /* Log */,
+				B3D486D920A188CB00553733 /* DataBaseService */,
+				B3301E812090287B00DE33E6 /* NetService */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3D486D920A188CB00553733 /* DataBaseService */ = {
+			isa = PBXGroup;
+			children = (
+				B3D486DC20A1892200553733 /* _FMSelectStatement.swift */,
+				B3D486DA20A1892200553733 /* _FMUpdateStatement.swift */,
+				B3D486DB20A1892200553733 /* FMDatabase.swift */,
+				B3D486DD20A1892200553733 /* FMDatabaseQueue.swift */,
+				B3D486DE20A1892200553733 /* FMResultSet.swift */,
+				B3D486E420A18D5D00553733 /* WAGDatabaseSettings.swift */,
+			);
+			path = DataBaseService;
+			sourceTree = "<group>";
+		};
+		FCFE5F68603672FD55369789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7612151DA36DE9C3A50521A /* Pods_WAGSteelTrade.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B31A84C120735CD700E25805 /* WAGSteelTrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31A84D420735CD700E25805 /* Build configuration list for PBXNativeTarget "WAGSteelTrade" */;
+			buildPhases = (
+				C2103DAD659115B7AE1E370D /* [CP] Check Pods Manifest.lock */,
+				B31A84BE20735CD700E25805 /* Sources */,
+				B31A84BF20735CD700E25805 /* Frameworks */,
+				B31A84C020735CD700E25805 /* Resources */,
+				E11F54C11B4195609C49B943 /* [CP] Embed Pods Frameworks */,
+				39CCBC8E3808C986519EAA24 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WAGSteelTrade;
+			productName = WAGSteelTrade;
+			productReference = B31A84C220735CD700E25805 /* WAGSteelTrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B31A84BA20735CD700E25805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yj;
+				TargetAttributes = {
+					B31A84C120735CD700E25805 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B31A84BD20735CD700E25805 /* Build configuration list for PBXProject "WAGSteelTrade" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B31A84B920735CD700E25805;
+			productRefGroup = B31A84C320735CD700E25805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B31A84C120735CD700E25805 /* WAGSteelTrade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B31A84C020735CD700E25805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31A84D020735CD700E25805 /* LaunchScreen.storyboard in Resources */,
+				B3301E84209164EC00DE33E6 /* Images.xcassets in Resources */,
+				B31A84CD20735CD700E25805 /* Assets.xcassets in Resources */,
+				B31A84CB20735CD700E25805 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39CCBC8E3808C986519EAA24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAGSteelTrade/Pods-WAGSteelTrade-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2103DAD659115B7AE1E370D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WAGSteelTrade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E11F54C11B4195609C49B943 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WAGSteelTrade/Pods-WAGSteelTrade-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
+				"${BUILT_PRODUCTS_DIR}/GRDBCipher/GRDBCipher.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyLog/SwiftyLog.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRDBCipher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLCipher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyLog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAGSteelTrade/Pods-WAGSteelTrade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B31A84BE20735CD700E25805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B326382A20A56DA500A52EF0 /* WAGLoginManager+NetService.swift in Sources */,
+				B3301E952093268400DE33E6 /* WAGCommonDefines.swift in Sources */,
+				B31A84C820735CD700E25805 /* ViewController.swift in Sources */,
+				B362FAE320986F9C00CA277F /* Router.swift in Sources */,
+				B3F63FB7208B8A1B00380BA0 /* WAGChatManager.swift in Sources */,
+				B362FAE52098708400CA277F /* WAGRouterManager.swift in Sources */,
+				B3F63FAB208B87DA00380BA0 /* WAGBuyerManager.swift in Sources */,
+				B3301E992095552B00DE33E6 /* WAGLoginViewController.swift in Sources */,
+				B3301E902093004900DE33E6 /* WAGGuidePageControl.swift in Sources */,
+				B3301EA62096C38400DE33E6 /* WAGTabBarViewController.swift in Sources */,
+				B304407120AD920C00B195CB /* WAGRCTBridgeModule.m in Sources */,
+				B304406C20AD6E2800B195CB /* WAGRNBridageModule.m in Sources */,
+				B3301EA32096C22100DE33E6 /* WAGHomePageViewController.swift in Sources */,
+				B326382C20A570AA00A52EF0 /* WAGLoginManager+DataProvider.swift in Sources */,
+				B3301E8E2092B5EC00DE33E6 /* WAGSplashViewController.swift in Sources */,
+				B3F63FA9208B87C600380BA0 /* WAGSellerManager.swift in Sources */,
+				B3301E8C2092B59800DE33E6 /* WAGGuidePageViewController.swift in Sources */,
+				B3301EA12096C1D900DE33E6 /* WAGMineViewController.swift in Sources */,
+				B3D486DF20A1892200553733 /* _FMUpdateStatement.swift in Sources */,
+				B3F63FB1208B886D00380BA0 /* WAGLoginManager.swift in Sources */,
+				B3F63FA7208B877500380BA0 /* WAGNetService.swift in Sources */,
+				B3D486E220A1892200553733 /* FMDatabaseQueue.swift in Sources */,
+				B3301E9F2096C1B400DE33E6 /* WAGChatViewController.swift in Sources */,
+				B304406E20AD6F1100B195CB /* WAGRNBridgeRouter.swift in Sources */,
+				B3D486E320A1892200553733 /* FMResultSet.swift in Sources */,
+				B31A84C620735CD700E25805 /* AppDelegate.swift in Sources */,
+				B3F63FA5208B875000380BA0 /* WAGDataProvider.swift in Sources */,
+				B326382220A43C5400A52EF0 /* WAGLog.swift in Sources */,
+				B3F63FB5208B895E00380BA0 /* WAGUIControllerRoute.swift in Sources */,
+				B3301E892092B33C00DE33E6 /* WAGMainViewController.swift in Sources */,
+				B3F63FB3208B893F00380BA0 /* WAGFacade.swift in Sources */,
+				B3D486E520A18D5D00553733 /* WAGDatabaseSettings.swift in Sources */,
+				B3D486E020A1892200553733 /* FMDatabase.swift in Sources */,
+				B3301E922093205E00DE33E6 /* UIImage+GIF.swift in Sources */,
+				B304407620AE6C8500B195CB /* WAGRNWarpperViewController.swift in Sources */,
+				B3301EA92096C50300DE33E6 /* WAGWorkBenchViewController.swift in Sources */,
+				B3D486E120A1892200553733 /* _FMSelectStatement.swift in Sources */,
+				B304407820AE6F7A00B195CB /* WAGRNWarpper.swift in Sources */,
+				B3301EAB2096C7F500DE33E6 /* WAGNavigatioViewController.swift in Sources */,
+				B3F63FAF208B885400380BA0 /* WAGMineManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B31A84C920735CD700E25805 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31A84CA20735CD700E25805 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B31A84CE20735CD700E25805 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31A84CF20735CD700E25805 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B31A84D220735CD700E25805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B31A84D320735CD700E25805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B31A84D520735CD700E25805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD0048E4031D158DA9836F8 /* Pods-WAGSteelTrade.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WAGSteelTrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yj.WAGSteelTrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/WAGSteelTrade/SteelTrade-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
+			};
+			name = Debug;
+		};
+		B31A84D620735CD700E25805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9036FB36FA176CB350436B4 /* Pods-WAGSteelTrade.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WAGSteelTrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yj.WAGSteelTrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/WAGSteelTrade/SteelTrade-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B31A84BD20735CD700E25805 /* Build configuration list for PBXProject "WAGSteelTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31A84D220735CD700E25805 /* Debug */,
+				B31A84D320735CD700E25805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31A84D420735CD700E25805 /* Build configuration list for PBXNativeTarget "WAGSteelTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31A84D520735CD700E25805 /* Debug */,
+				B31A84D620735CD700E25805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B31A84BA20735CD700E25805 /* Project object */;
+}
